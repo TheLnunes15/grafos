@@ -1,8 +1,8 @@
 # grafos
 
-**Provas práticas da disciplina Grafos e Algoritmos Computacionais**
+**Provas práticas da disciplina Grafos e Algoritmos Computacionais (C/C++ e Java)**
 
-[**Primeira Unidade**] 
+[**Primeira Unidade**] - *C/C++*
 
 * Algoritmo de Bellman-Ford 
 * Algoritmo de Dijkstra
@@ -11,14 +11,14 @@
 
 *Os algoritmos de Dijkstra e Bellman-Ford são para encontrar caminhos mínimos, e os de Kruskal e Prim para encontrar árvores geradoras mínimas.*
 
-[**Segunda Unidade**] 
+[**Segunda Unidade**] - *Java*
 
 1. Algoritmo de Ford–Fulkerson (nome usado *ffflow*)
 2. Algoritmo de Push–Relabel (nome usado *prflow*)
 
-[**Terceira Unidade**]
+[**Terceira Unidade**] - *C++ e Java*
 
-**1. Grafos Eulerianos:**
+**1. Grafos Eulerianos (em C++):**
 Implemente um algoritmo para encontrar o ciclo de menor custo em um grafo que passa pelo menos uma vez por cada aresta. O algoritmo deve ler um arquivo textual onde um grafo simples ponderado é representado através de matrizes de adjacências. Os valores diferentes de 0 indicam o peso. O grafo do exemplo abaixo seria representado da seguinte forma:
 
 0 1 0 0 0 3 1 0 0 0
@@ -48,10 +48,10 @@ Seja V impar = {V1, V2,..., Vk} o conjunto dos vértices de grau ímpar do grafo
 3. Crie G’ duplicando em G as arestas de cada um dos caminhos P i,j do conjunto determinado no item anterior.
 4. Ache um ciclo Euleriano em G’.
 
-**2. Grafos Planares:**
+**2. Grafos Planares (Java):**
 Implemente um algoritmo para decidir se um grafo simples é planar ou não. O algoritmo deve ler um arquivo textual onde um grafo simples é representado através da matriz de adjacência.
 
-**3. Coloração de Vértices:**
+**3. Coloração de Vértices (Java):**
 Implemente um algoritmo guloso para coloração de vértices. O algoritmo deve ler um arquivo textual onde um grafo simples é representado através da matriz de adjacência. A saída é uma lista com n elementos (cada elemento é um vértice do grafo) com as cores atribuídas a cada vértice.
 
 
