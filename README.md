@@ -43,9 +43,9 @@ Implemente um algoritmo para encontrar o ciclo de menor custo em um grafo que pa
 
 Se o grafo não é Euleriano uma solução possível é a seguinte:
 Seja V impar = {V1, V2,..., Vk} o conjunto dos vértices de grau ímpar do grafo G.
-1. Para cada par (Vi, Vj) de V ímpar encontre o caminho Pij de Vi a Vj com menor custo.
-2. Determine um conjunto de k/2 caminhos P i,je que contempla todos os vértices de V impar e tem a menor soma de custos.
-3. Crie G’ duplicando em G as arestas de cada um dos caminhos P i,j do conjunto determinado no item anterior.
+1. Para cada par (Vi, Vj) de Vímpar encontre o caminho Pi,j de Vi a Vj com menor custo.
+2. Determine um conjunto de k/2 caminhos Pi,je que contempla todos os vértices de V impar e tem a menor soma de custos.
+3. Crie G’ duplicando em G as arestas de cada um dos caminhos Pi,j do conjunto determinado no item anterior.
 4. Ache um ciclo Euleriano em G’.
 
 **2. Grafos Planares (Java):**
