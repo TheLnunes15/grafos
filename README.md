@@ -22,14 +22,23 @@
 Implemente um algoritmo para encontrar o ciclo de menor custo em um grafo que passa pelo menos uma vez por cada aresta. O algoritmo deve ler um arquivo textual onde um grafo simples ponderado é representado através de matrizes de adjacências. Os valores diferentes de 0 indicam o peso. O grafo do exemplo abaixo seria representado da seguinte forma:
 
 0 1 0 0 0 3 1 0 0 0
+
 1 0 1 0 3 0 2 0 0 0
+
 0 1 0 5 0 0 0 2 0 0
+
 0 0 5 0 2 0 0 0 1 0
+
 0 3 0 2 0 1 0 0 4 0
+
 3 0 0 0 1 0 0 0 0 2
+
 1 2 0 0 0 0 0 2 0 3
+
 0 0 2 0 0 0 2 0 1 1
+
 0 0 0 1 4 0 0 1 0 2
+
 0 0 0 0 0 2 3 1 2 0
 
 Se o grafo não é Euleriano uma solução possível é a seguinte:
